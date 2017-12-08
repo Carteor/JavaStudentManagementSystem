@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <title>Login</title>
+    <style>
+        form {
+            margin: 0 auto;
+            width: 800px;
+        }
+    </style>
+</head>
+<body>
+    <h1>System Management System</h1>
+    <form action="MainServlet" method="post">
+        Student ID <input type="text" name="id" required><br>
+        Password <input type="password"><br>
+        <input type="submit" value="Submit">
+    </form>
+    <a href="MainServlet?page=home">Start as guest</a>
+</body>
+</html>
